@@ -1,0 +1,30 @@
+﻿<Window x:Class="_2DArrays_2___CenterParcs.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:_2DArrays_2___CenterParcs"
+        mc:Ignorable="d"
+        Title="Center Parcs" Height="350" Width="500" Loaded="Window_Loaded">
+    <Grid Background="LightGreen">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+            <ColumnDefinition Width="2*"/>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+        <StackPanel Grid.Column="1" Margin="5" Background="White">
+            <Label 
+                    HorizontalAlignment="Center"
+                    Foreground="Green"
+                    FontSize="40">
+                Center Parcs
+            </Label>
+            <TextBlock Margin="5">Type woning</TextBlock>
+            <ComboBox Name="houseTypeComboBox" Margin="5" SelectionChanged="SelectionChanged"></ComboBox>
+            <TextBlock Margin="5">Aantal dagen</TextBlock>
+            <ComboBox Name="numberOfDaysComboBox" Margin="5" SelectionChanged="SelectionChanged"></ComboBox>
+            <TextBlock Margin="5">Prijs</TextBlock>
+            <TextBox Margin="5" IsEnabled="False" Name="totalPriceTextBox"></TextBox>
+        </StackPanel>
+    </Grid>
+</Window>
