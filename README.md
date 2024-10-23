@@ -50,13 +50,14 @@ totaalprijs onmiddellijk getoond.
 4.  Gebruik de volgende 2D array om de ComboBox voor woningtype in te
     vullen.\
     ```cs
-        private string[,] _houseWithPrice = new string[5, 2] {
-            { "2 personen", "80" },
-            { "4 personen", "120" } ,
-            { "4 personen lux", "140" } ,
-            { "6 personen", "180" },
-            { "8 personen", "200"}
-        };	```
+	private string[,] _houseWithPrice = new string[5, 2] {
+		{ "2 personen", "80" },
+		{ "4 personen", "120" } ,
+		{ "4 personen lux", "140" } ,
+		{ "6 personen", "180" },
+		{ "8 personen", "200"}
+	};	
+	```
 
 5.  Gebruik de 2D array, woningMetPrijs, om de prijs te berekenen.
 
