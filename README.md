@@ -1,4 +1,4 @@
-# Oefening 2: Centerparcs
+# Oefening 1: Centerparcs
 
 Maak een applicatie die de prijzen simuleert van een Center Parcs verblijf.
 
