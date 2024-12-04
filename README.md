@@ -12,7 +12,7 @@ beschrijving](./media/image1.png)
 
 In de layout wordt een Grid gebruikt om de applicatie op te delen in drie kolommen.
 
-In de middelste kolom wordt een WrapPanel gebruikt. De gebruikte kleuren in de applicatie zijn: Green, LightGreen en White.
+In de middelste kolom wordt een StackPanel gebruikt. De gebruikte kleuren in de applicatie zijn: Green, LightGreen en White.
 
 1.  In de middelste kolom staan twee ComboBox'en voor de type woning en het aantal dagen.
 2.  De TextBox waarin de prijs verschijnt is niet enabled.
@@ -36,5 +36,5 @@ In de middelste kolom wordt een WrapPanel gebruikt. De gebruikte kleuren in de a
 		{ "8 personen", "200"}
 	};	
     ```
-5.  Gebruik de 2D array, woningMetPrijs, om de prijs te berekenen.
+5.  Gebruik de 2D array, _houseWithPrice, om de prijs te berekenen.
 6.  Maak gebruik van methodes om de opties in de ComboBox te laden.
